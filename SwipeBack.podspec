@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'SwipeBack/*.{h,m}'
   s.frameworks   = 'UIKit', 'Foundation'
+  s.static_framework = true
 end
